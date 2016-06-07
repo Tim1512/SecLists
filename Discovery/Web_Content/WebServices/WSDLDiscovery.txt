@@ -1,0 +1,27 @@
+Seperators:
+?
+/
+
+_
+.
+_?
+_.
+/_
+/?
+/_?
+/.
+ 
+Extensions: 
+wsdl
+wadl
+service
+services
+svc
+default.vsdisco
+Service.svc
+Service.svc/mex
+svc/mex
+
+
+I usually fuzz using burp cluster bomb like this:
+GET /webservicename$Seperators$$Extensions$
